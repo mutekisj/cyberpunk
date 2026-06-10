@@ -1,0 +1,179 @@
+body{
+    width: 1920px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 605px;
+}
+.logo{
+    margin: 20px 0 0 320px;
+}
+.socials{
+    width: 370px;
+    height: 30px;
+    display: flex;
+    gap: 40px;
+    margin: 42px 320px 0 0;
+}
+.top-section{
+    height: 1000px;
+    background: url(/images/hero.jpg) center no-repeat;
+    background-size: cover;
+    transition: background-image 0.5s ease;
+}
+.available{
+    margin: 537px 320px 0 0;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.available-block{
+    width: 624px;
+    height: 369px;
+    background: url(/images/available.png) center no-repeat;
+}
+.av-text{
+    color: #000;
+    font-family: 'Archangelsk';
+    font-weight: 400;
+    font-size: 62px;
+    margin: 70px 70px 0 70px;
+}
+.know-more{
+    margin: 25px 0 70px 70px;
+    background-color: black;
+    color: yellow;
+    width: 272px;
+    height: 78px;
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+}
+.about{
+    padding: 0 320px 0 320px;
+}
+.pics{
+    display: flex;
+    gap: 32px;
+}
+.left-pics{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.promo-text{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.night{
+    margin-top: 70px;
+    color: #000;
+    font-family: 'Archangelsk';
+    font-size: 62px;
+}
+.about-text{
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 70px;
+}
+.cyberpunk{
+    color: aqua;
+    font-weight: 700;
+}
+.giveaway{
+    padding: 0 320px;
+    height: 814px;
+    background-color: #000;
+}
+.sale-logo {
+    margin-top: 15px;
+}
+.play-title {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+}
+.giveaway-title{
+    margin-top: 70px;
+    color: #ffffff;
+    font-family: 'Archangelsk';
+    font-size: 62px;
+}
+.sale-text {
+    width: 952px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    line-height: 34px;
+}
+.form {
+    max-width: 540px;
+    margin: 40px auto;
+}
+.input-group {
+    margin-bottom: 30px;
+}
+.input {
+    width: 100%;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #666;
+    color: #fff;
+    font-size: 16px;
+    padding: 12px 0;
+    outline: none;
+}
+.input::placeholder {
+    color: #ccc;
+}
+.upload {
+    border: 1px dashed #666;
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 35px;
+    cursor: pointer;
+}
+.upload input {
+    display: none;
+}
+.upload-title {
+    color: #fff;
+    text-decoration: underline;
+    margin-bottom: 8px;
+}
+.upload-text {
+    color: #999;
+    font-size: 14px;
+}
+.btn {
+    background: #fff200;
+    color: #000;
+    border: none;
+    padding: 18px 55px;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+.checkbox {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+    color: #bdbdbd;
+}
+.checkbox input {
+    width: 16px;
+    height: 16px;
+    accent-color: #fff200;
+}
+.bottom-section {
+    display: flex;
+    gap: 32px;
+}
